@@ -1,8 +1,7 @@
     1  yum update
     2  yum install wget -y
     3  sudo yum install java-1.8.0-openjdk.x86_64 -y
-    4  mkdir apple/app
-    5  mkdir /app
+    4  mkdir /app
     6  cd /app
     7  sudo wget -O nexus.tar.gz https://download.sonatype.com/nexus/3/latest-unix.tar.gz
     8  tar -xvf nexus.tar.gz
@@ -24,3 +23,5 @@
    24  /app/sonatype-work/nexus3/admin.password -f
    25  cat /app/sonatype-work/nexus3/admin.password
 
+
+    5  
